@@ -1,0 +1,55 @@
+
+/* common shared styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 30px 0px;
+}
+
+li {
+    list-style: none;
+    margin-left: 30px;
+    
+    
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.button-primary{
+    background-color: orangered;
+    padding: 20px 30px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.text-primary{
+    color: salmon;
+}
+ 
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 150px;
+}
+
+.profile-image{
+    width: 500px;
+    
+}
+
