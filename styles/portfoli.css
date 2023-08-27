@@ -70,6 +70,8 @@ nav a{
 
 .about-title{
     text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 .description-title{
     text-align: center;
@@ -103,4 +105,55 @@ nav a{
     margin: 130px 0px;
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    padding: 35px;
+    margin: 130px 0px;
+    max-width: 1140px;
+    margin: 35px auto;
+
+    /* 
+        padding: 35px;
+    margin: 130px 0px;
+    background-color: blanchedalmond;
+    max-width: 1140px;
+    margin: 35px auto; */
+}
+
+.skill{
+    padding : 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+
+.resume-column{
+    display: flex;
+    gap : 50px
+}
+.resume-item hr{
+    margin: 30px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 40px;
+    padding: 35px;
+    margin: 130px 0px;
+    background-color: blanchedalmond;
+    max-width: 1140px;
+    margin: 35px auto;
+}
+input{
+    padding: 18px 35px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+.footer-description{
+    width: 50%;
+    text-align: center;
 }
