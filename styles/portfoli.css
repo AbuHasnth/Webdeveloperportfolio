@@ -2,6 +2,8 @@
 /* common shared styles */
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar {
@@ -64,4 +66,19 @@ nav a{
     margin-right: 40px;
     
 }
+/* Main section styles */
 
+.about-title{
+    text-align: center;
+}
+.description-title{
+    text-align: center;
+    /* text-align: justify; */
+  text-justify: inter-word;
+    
+}
+.about{
+    padding: 35px;
+    margin: 130px 0px;
+    background-color: blanchedalmond;
+}
